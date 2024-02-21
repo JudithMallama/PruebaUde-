@@ -1,0 +1,122 @@
+VisualElement {
+}
+
+.contenedor {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 1080px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 300px;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/Mallama/Images/hongo2.png?fileID=2800000&guid=ab5883b3d6e260b4f98f626ca707679c&type=3#hongo2');
+    -unity-background-image-tint-color: rgba(196, 196, 196, 0.63);
+    -unity-background-scale-mode: stretch-to-fill;
+    padding-right: 100px;
+    transform-origin: center;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.izquierdo {
+    max-width: 400px;
+    min-width: 500px;
+    height: 100%;
+    background-color: rgb(205, 241, 229);
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    border-left-color: rgba(50, 70, 62, 0.82);
+    border-right-color: rgba(50, 70, 62, 0.82);
+    border-top-color: rgba(50, 70, 62, 0.82);
+    border-bottom-color: rgba(50, 70, 62, 0.82);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.derecho {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left-color: rgb(51, 69, 62);
+    border-right-color: rgb(51, 69, 62);
+    border-top-color: rgb(51, 69, 62);
+    border-bottom-color: rgb(51, 69, 62);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.botones {
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.botonMenu {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(28, 102, 71);
+    width: 95%;
+    -unity-font: url('project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&guid=7cda514e3c0536c4abae759b0cd48194&type=3#RetroFlower');
+    -unity-font-definition: none;
+    font-size: 60px;
+    border-left-color: rgb(28, 102, 71);
+    border-right-color: rgb(28, 102, 71);
+    border-top-color: rgb(28, 102, 71);
+    border-bottom-color: rgb(28, 102, 71);
+    color: rgb(205, 241, 229);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    margin-bottom: 10px;
+}
+
+.botonMenu:hover {
+    -unity-text-outline-color: rgb(51, 173, 105);
+    border-left-color: rgba(205, 241, 229, 0.57);
+    border-right-color: rgba(205, 241, 229, 0.57);
+    border-top-color: rgba(205, 241, 229, 0.57);
+    border-bottom-color: rgba(205, 241, 229, 0.57);
+    color: rgb(28, 102, 71);
+    background-color: rgb(205, 241, 229);
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&guid=7cda514e3c0536c4abae759b0cd48194&type=3#RetroFlower');
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.imgHongo {
+    width: 100%;
+    height: 80%;
+    background-image: url('project://database/Assets/Mallama/Images/hongo.png?fileID=21300000&guid=e48fb9ff9431d1443a4d0844da7d04d1&type=3#hongo');
+}

@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MainPanelUXML" src="project://database/Assets/Mallama/UI/MainPanelUXML.uxml?fileID=9197481963319205126&amp;guid=ec2d9041273e2484a82fd156431c66fb&amp;type=3#MainPanelUXML" />
+    <Style src="project://database/Assets/Mallama/UI/MenuStyle.uss?fileID=7433441132597879392&amp;guid=7f5f2cd91faeb51409efc424bbcfc80a&amp;type=3#MenuStyle" />
+    <ui:VisualElement name="contendor" class="contenedor" style="width: 100%; height: 100%; flex-direction: row; justify-content: space-around; max-height: 100%; min-height: 100%; margin-top: 50px; margin-bottom: 50px;">
+        <ui:VisualElement name="izquierdo" class="izquierdo" style="max-width: 500px; min-width: 600px; justify-content: flex-end; background-color: rgb(52, 68, 62); align-items: flex-start;">
+            <ui:VisualElement name="logo" class="logo" style="background-image: url(&apos;project://database/Assets/Mallama/Images/udeA.png?fileID=21300000&amp;guid=6bc5b05262ce0cb4e9d7096438c862b5&amp;type=3#udeA&apos;); width: 586px; height: 238px;" />
+            <ui:VisualElement name="botones" class="botones" style="width: 100%; align-items: center;">
+                <ui:Button text="Jugar" display-tooltip-when-elided="true" name="play" class="botonMenu" style="max-height: 70px; min-height: 80px; height: 78px; width: 95%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 10px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-left-color: rgb(28, 102, 71); border-right-color: rgb(28, 102, 71); border-top-color: rgb(28, 102, 71); border-bottom-color: rgb(28, 102, 71); white-space: normal; -unity-text-align: lower-center;" />
+                <ui:Button text="Creditos" display-tooltip-when-elided="true" name="creditos" class="botonMenu" style="max-height: 70px; min-height: 80px; height: 78px; width: 95%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 10px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-left-color: rgb(28, 102, 71); border-right-color: rgb(28, 102, 71); border-top-color: rgb(28, 102, 71); border-bottom-color: rgb(28, 102, 71); white-space: normal; -unity-text-align: middle-center;" />
+                <ui:Button text="Salir" display-tooltip-when-elided="true" name="salir" class="botonMenu" style="max-height: 70px; min-height: 80px; height: 78px; width: 95%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-left-color: rgb(28, 102, 71); border-right-color: rgb(28, 102, 71); border-top-color: rgb(28, 102, 71); border-bottom-color: rgb(28, 102, 71); white-space: normal; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="derecho" class="derecho" style="justify-content: center; align-items: center;">
+            <ui:VisualElement name="imgHongo" style="align-items: flex-end; justify-content: flex-start; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Mallama/Images/hongo2.png?fileID=21300000&amp;guid=ab5883b3d6e260b4f98f626ca707679c&amp;type=3#hongo2&apos;); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; position: relative;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="MainPanelUXML" name="MainPanelUXML" />
+</ui:UXML>

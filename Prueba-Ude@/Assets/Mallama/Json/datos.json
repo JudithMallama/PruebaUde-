@@ -1,0 +1,58 @@
+[
+    {
+        "nombre": "Calculo",
+        "velocidad": 10,
+        "fuerza": 50,
+        "magia": 30,
+        "resistencia": 70
+    },
+    {
+        "nombre": "Fisica",
+        "velocidad": 20,
+        "fuerza": 50,
+        "magia": 90,
+        "resistencia": 70
+    },
+    {
+        "nombre": "Algebra",
+        "velocidad": 3,
+        "fuerza": 85,
+        "magia": 44,
+        "resistencia": 33
+    },
+    {
+        "nombre": "Trigonometria",
+        "velocidad": 92,
+        "fuerza": 82,
+        "magia": 22,
+        "resistencia": 11
+    },
+    {
+        "nombre": "Campos",
+        "velocidad": 40,
+        "fuerza": 30,
+        "magia": 28,
+        "resistencia": 52
+    },
+    {
+        "nombre": "Circuitos",
+        "velocidad": 15,
+        "fuerza": 20,
+        "magia": 35,
+        "resistencia": 75
+    },
+    {
+        "nombre": "Computacion",
+        "velocidad": 10,
+        "fuerza": 80,
+        "magia": 90,
+        "resistencia": 60
+    },
+    {
+        "nombre": "Señales",
+        "velocidad": 10,
+        "fuerza": 20,
+        "magia": 30,
+        "resistencia": 50
+    }
+]
