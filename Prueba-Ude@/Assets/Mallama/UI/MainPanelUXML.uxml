@@ -1,0 +1,57 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Mallama/UI/MainPanelUSS.uss?fileID=7433441132597879392&amp;guid=deb71fd17dabf0844a355cb3306e9574&amp;type=3#MainPanelUSS" />
+    <ui:VisualElement name="container" class="container" style="flex-direction: row-reverse; justify-content: space-around; width: 100%; height: 100%; align-items: stretch; background-color: rgba(56, 56, 56, 0);">
+        <ui:VisualElement name="cerrar" class="cerrar" style="width: 100%; height: 10%; align-items: center; flex-direction: row; justify-content: space-between;">
+            <ui:Label text="0&#10;" display-tooltip-when-elided="true" name="points" class="puntos" style="margin-left: 20px; margin-right: 20px; margin-top: 50px; margin-bottom: 20px; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&amp;guid=7cda514e3c0536c4abae759b0cd48194&amp;type=3#RetroFlower&apos;); font-size: 100px; -unity-text-align: upper-center; padding-top: 5px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.24); width: 156px; height: 107px;" />
+            <ui:Button text="X" display-tooltip-when-elided="true" name="btnCerrar" class="btnCerrar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="carta" class="carta" style="background-color: rgba(38, 38, 38, 0.96); align-items: center; margin-top: 0;">
+            <ui:Label text="Items" display-tooltip-when-elided="true" name="titulo" class="titulo" style="-unity-font: url(&apos;project://database/Assets/Mallama/Fonts/Santa%20Festival%20TTF%20Personal.ttf?fileID=12800000&amp;guid=80038b61d51d0b14797b9b9ba1619511&amp;type=3#Santa Festival TTF Personal&apos;); -unity-font-definition: none; color: rgb(39, 192, 43); font-size: 50px; height: 121px; align-items: center; justify-content: space-between;" />
+            <ui:VisualElement name="premios-cart" class="premios-cart" style="align-items: stretch; justify-content: center; flex-direction: row; flex-grow: 0; width: 100%;">
+                <ui:VisualElement name="cart-izquierda" class="cart-izquierda" style="flex-direction: row; flex-wrap: wrap; margin-right: 0; margin-left: 10px; display: flex; width: 650px; align-items: flex-end; justify-content: flex-end; height: 120%;">
+                    <ui:Button display-tooltip-when-elided="true" name="btn01" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/1.png?fileID=21300000&amp;guid=c3580abf71046c64cb05fd564f78deae&amp;type=3#1&apos;); height: 180px; display: none;" />
+                    <ui:Button display-tooltip-when-elided="true" name="btn02" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/2.png?fileID=21300000&amp;guid=ea01bf4d0ebfc664eb4ab9f33fdc2f4e&amp;type=3#2&apos;); height: 180px; display: none;" />
+                    <ui:Button display-tooltip-when-elided="true" name="btn03" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/3.png?fileID=21300000&amp;guid=a4fa9b927cbe9324f8071b8f7090c19a&amp;type=3#3&apos;); height: 180px;" />
+                    <ui:Button display-tooltip-when-elided="true" name="btn04" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/4.png?fileID=21300000&amp;guid=af8fd7bfebf14794aa9dbea9fb9818ac&amp;type=3#4&apos;); height: 180px;" />
+                    <ui:Button display-tooltip-when-elided="true" name="btn05" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/5.png?fileID=21300000&amp;guid=18aa2c4d2d120d4499c64fdc2dd61d7a&amp;type=3#5&apos;); height: 180px; display: flex;" />
+                    <ui:Button display-tooltip-when-elided="true" name="btn06" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/6.png?fileID=21300000&amp;guid=71c673c0c02c7f8438a6d822c493d741&amp;type=3#6&apos;); height: 180px;" />
+                    <ui:Button display-tooltip-when-elided="true" name="btn07" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/7.png?fileID=21300000&amp;guid=28b1e899a3580314d947d4576942f0fc&amp;type=3#7&apos;); height: 180px;" />
+                    <ui:Button display-tooltip-when-elided="true" name="btn08" class="btn" style="background-image: url(&apos;project://database/Assets/Mallama/Images/9.png?fileID=21300000&amp;guid=5b72ebc1f10e8a24ca2e1d5bedb372ce&amp;type=3#9&apos;); height: 180px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="cart-derecha" class="cart-derecha" style="height: 100%; flex-grow: 1;">
+                    <ui:Label text="Selecciona un item" display-tooltip-when-elided="true" name="instrucciones" class="instrucciones" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Mallama/UI/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=247b1e16232a8ff45942c5a86d68de4e&amp;type=3#NotInter-Regular&apos;); font-size: 15px; color: rgb(255, 255, 255); -unity-slice-top: 5;" />
+                    <ui:Label text="Nombre" display-tooltip-when-elided="true" name="nombre" class="nombre" style="-unity-font: url(&apos;project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&amp;guid=7cda514e3c0536c4abae759b0cd48194&amp;type=3#RetroFlower&apos;); -unity-font-definition: none; font-size: 60px; color: rgb(39, 192, 43); padding-top: 10px; padding-bottom: 10px;" />
+                    <ui:VisualElement name="estadistica" class="estadistica" style="flex-direction: row; justify-content: space-between; margin-bottom: 10px; margin-top: 10px;">
+                        <ui:Label text="Velocidad" display-tooltip-when-elided="true" name="propiedad" class="propiedad" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&amp;guid=7cda514e3c0536c4abae759b0cd48194&amp;type=3#RetroFlower&apos;); font-size: 30px;" />
+                        <ui:ProgressBar name="velocidad" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="estadistica" class="estadistica" style="flex-direction: row; justify-content: space-between; margin-bottom: 10px; margin-top: 10px;">
+                        <ui:Label text="Fuerza" display-tooltip-when-elided="true" name="propiedad" class="propiedad" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&amp;guid=7cda514e3c0536c4abae759b0cd48194&amp;type=3#RetroFlower&apos;); font-size: 30px;" />
+                        <ui:ProgressBar name="fuerza" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="estadistica" class="estadistica" style="flex-direction: row; justify-content: space-between; margin-bottom: 10px; margin-top: 10px;">
+                        <ui:Label text="Magia" display-tooltip-when-elided="true" name="propiedad" class="propiedad" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&amp;guid=7cda514e3c0536c4abae759b0cd48194&amp;type=3#RetroFlower&apos;); font-size: 30px;" />
+                        <ui:ProgressBar name="magia" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="estadistica" class="estadistica" style="flex-direction: row; justify-content: space-between; margin-bottom: 10px; margin-top: 10px;">
+                        <ui:Label text="Resistencia" display-tooltip-when-elided="true" name="propiedad" class="propiedad" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&amp;guid=7cda514e3c0536c4abae759b0cd48194&amp;type=3#RetroFlower&apos;); font-size: 30px;" />
+                        <ui:ProgressBar name="resistencia" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="Salir" display-tooltip-when-elided="true" name="back" class="back" style="background-color: rgb(24, 115, 27); -unity-text-align: middle-center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="items" class="items" style="flex-direction: row-reverse; align-items: stretch;">
+            <ui:Button display-tooltip-when-elided="true" name="b1" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/1.png?fileID=21300000&amp;guid=c3580abf71046c64cb05fd564f78deae&amp;type=3#1&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b2" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/2.png?fileID=21300000&amp;guid=ea01bf4d0ebfc664eb4ab9f33fdc2f4e&amp;type=3#2&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b3" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/3.png?fileID=21300000&amp;guid=a4fa9b927cbe9324f8071b8f7090c19a&amp;type=3#3&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b4" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/4.png?fileID=21300000&amp;guid=af8fd7bfebf14794aa9dbea9fb9818ac&amp;type=3#4&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b5" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/5.png?fileID=21300000&amp;guid=18aa2c4d2d120d4499c64fdc2dd61d7a&amp;type=3#5&apos;); display: flex; width: 10%; opacity: 1;" />
+            <ui:Button display-tooltip-when-elided="true" name="b6" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/6.png?fileID=21300000&amp;guid=71c673c0c02c7f8438a6d822c493d741&amp;type=3#6&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b7" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/7.png?fileID=21300000&amp;guid=28b1e899a3580314d947d4576942f0fc&amp;type=3#7&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b8" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/8.png?fileID=21300000&amp;guid=08dd766f537ec524fb65722023b8229e&amp;type=3#8&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b9" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/9.png?fileID=21300000&amp;guid=5b72ebc1f10e8a24ca2e1d5bedb372ce&amp;type=3#9&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="b10" class="btnItems" style="background-image: url(&apos;project://database/Assets/Mallama/Images/10.png?fileID=2800000&amp;guid=df5c3cc2ba98bb04fb9ebe9b01b29bdf&amp;type=3#10&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

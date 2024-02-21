@@ -1,0 +1,51 @@
+VisualElement {
+}
+
+.container {
+    background-color: rgba(38, 36, 36, 0.87);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgContainer {
+    align-items: center;
+    margin-top: 0;
+    flex-direction: column-reverse;
+}
+
+.btn {
+    width: 25%;
+    height: 10%;
+    translate: 0 200%;
+    margin-left: 0;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 0;
+    background-color: rgb(78, 101, 68);
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Mallama/Fonts/RetroFlower.otf?fileID=12800000&guid=7cda514e3c0536c4abae759b0cd48194&type=3#RetroFlower');
+    -unity-font-style: bold;
+    font-size: 50px;
+    color: rgb(206, 207, 206);
+}
+
+.btn:hover {
+    scale: 1.2 1.2;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 144, 81);
+}
+
+.win {
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Mallama/Fonts/charbb_reg.ttf?fileID=12800000&guid=db6c9e843f552814ea2b70dff6b3a0bf&type=3#charbb_reg');
+    font-size: 200px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    -unity-text-outline-color: rgba(236, 34, 19, 255);
+    color: rgba(241, 197, 24, 255);
+    -unity-text-outline-width: 2px;
+}

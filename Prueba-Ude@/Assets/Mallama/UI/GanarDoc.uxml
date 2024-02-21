@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Mallama/UI/GanarStyle.uss?fileID=7433441132597879392&amp;guid=360682b155663034bb51c3c9ff37fd8d&amp;type=3#GanarStyle" />
+    <ui:VisualElement name="container" class="container" style="width: 100%; height: 100%;">
+        <ui:VisualElement name="imgContainer" class="imgContainer" style="background-image: url(&apos;project://database/Assets/Mallama/Images/Ganar.png?fileID=2800000&amp;guid=0964b3552adff7e4ba3f2a325c0b6074&amp;type=3#Ganar&apos;); width: 80%; height: 80%; justify-content: center; translate: 0 10%; flex-direction: column;">
+            <ui:Label text="You Win !!" display-tooltip-when-elided="true" name="win" class="win" />
+            <ui:Button text="Jugar otra vez" display-tooltip-when-elided="true" name="Menu" class="btn" />
+            <ui:Button text="Menu" display-tooltip-when-elided="true" name="Play" class="btn" />
+            <ui:Button text="Salir" display-tooltip-when-elided="true" name="Salir" class="btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
